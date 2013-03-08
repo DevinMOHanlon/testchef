@@ -11,5 +11,6 @@ application "rails-demo" do
   path       "/var/www/rails-apps/rails-demo"
   owner      "vagrant"
   group      "vagrant"
-  repository "http://github.com"
+  repository "http://github.com/devinmohanlon/testchef.git"
+  passenger_apache2
 end
